@@ -1,0 +1,109 @@
+
+.container1 {
+    background: #FFD54F;
+    width: 90%;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* flex-flow: row-reverse wrap-reverse; */
+    justify-content: space-around;
+    align-items: baseline;
+    /* /* line-height: 0;  */
+    /* cursor: pointer; */
+    /* max-width: 950px; */
+    /*.featureListItem + .featureListItem {
+        border-top: 1px solid #D7DBDD;
+    }*/
+}
+
+.container1>.item3 {
+    height: 40%;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    /* flex: 1 1 200px; */
+}
+
+.container1>.item1,
+.container1>.item2 {
+    height: 20%;
+    align-items: center;
+    flex-grow: 5;
+    flex-shrink: 5;
+    flex-basis: 200px;
+    /* flex: 5 5 200px; */
+}
+
+.container2 {
+    background: #FFD54F;
+    width: 90%;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row-reverse wrap-reverse; */
+    justify-content: space-around;
+    /* align-content: space-around; */
+}
+
+.container2>.item1,
+.container2>.item2,
+.container2>.item3 {
+    width: calc(100%/9 - 6px);
+}
+
+.container3 {
+    background: #FFD54F;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* flex-flow: row-reverse wrap-reverse; */
+    justify-content: flex-end;
+    align-items: stretch;
+}
+
+.item1 {
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-self: center;
+    /* order: 1; */
+    font-size: 10px;
+    padding: 5px;
+    background: #fff;
+    margin: 3px;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item2 {
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    /* order: 2; */
+    font-size: 10px;
+    padding: 5px;
+    background: #fff;
+    margin: 3px;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item3 {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* order: 3; */
+    font-size: 10px;
+    padding: 5px;
+    background: #fff;
+    margin: 3px;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
